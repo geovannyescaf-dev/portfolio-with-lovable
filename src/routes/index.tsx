@@ -370,22 +370,11 @@ function Index() {
               <div className="absolute -inset-4 rounded-3xl bg-primary/5 blur-2xl" />
               <Card className="relative border-border/50 bg-card/50 backdrop-blur-sm">
                 <CardContent className="p-6 sm:p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="font-display text-lg font-semibold text-foreground">Education</h3>
-                      <div className="mt-3 rounded-xl bg-accent/30 p-4">
-                        <p className="font-medium text-foreground">MBA · Finance & Accounting</p>
-                        <p className="text-sm text-muted-foreground">The University of Chicago Booth School of Business</p>
-                        <p className="text-xs text-muted-foreground">May 2019 - June 2021</p>
-                      </div>
-                    </div>
-                    <Separator className="bg-border/50" />
-                    <div>
-                      <h3 className="font-display text-lg font-semibold text-foreground">Certifications</h3>
-                      <div className="mt-3 rounded-xl bg-accent/30 p-4">
-                        <p className="font-medium text-foreground">Shopify Development Fundamentals</p>
-                        <p className="text-sm text-muted-foreground">Shopify</p>
-                      </div>
+                  <div>
+                    <h3 className="font-display text-lg font-semibold text-foreground">Certifications</h3>
+                    <div className="mt-3 rounded-xl bg-accent/30 p-4">
+                      <p className="font-medium text-foreground">Shopify Development Fundamentals</p>
+                      <p className="text-sm text-muted-foreground">Shopify</p>
                     </div>
                   </div>
                 </CardContent>
