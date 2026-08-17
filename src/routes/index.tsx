@@ -25,9 +25,10 @@ import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 
 import heroImage from "@/assets/hero-portfolio.jpg";
-import projectBeauty from "@/assets/project-beauty.jpg";
-import projectMigration from "@/assets/project-migration.jpg";
-import projectCheckout from "@/assets/project-checkout.jpg";
+import projectBellami from "@/assets/project-bellami.jpg";
+import projectFenty from "@/assets/project-fenty.jpg";
+import projectWhiteWarren from "@/assets/project-whitewarren.jpg";
+import projectFracture from "@/assets/project-fracture.jpg";
 import resumeAsset from "@/assets/Geovanny_Escaf_Resume.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
