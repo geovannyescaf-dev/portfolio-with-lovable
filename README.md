@@ -1,8 +1,6 @@
-# My Digital Haven
+# Portfolio Website
 
-I want to build my personal Portfolio website. I will attach my resume. I want to add About Me section, Products section, Experience section including skills,  and contact me section. Use modern and dark theme, and use #95bf47 as accent color.
-
-This project was built with [Lovable](https://lovable.dev).
+My portfolio website built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
