@@ -242,7 +242,7 @@ function Index() {
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
               <a href="#contact" onClick={(e) => { e.preventDefault(); handleNavClick("#contact"); }}>
-                Hire Me
+                Contact&nbsp;Me
               </a>
             </Button>
           </div>
