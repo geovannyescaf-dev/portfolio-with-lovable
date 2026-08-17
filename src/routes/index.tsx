@@ -150,44 +150,50 @@ const skillGroups = [
     title: "Frontend",
     skills: [
       "JavaScript (ES6+)",
-      "TypeScript",
-      "React.js",
-      "Vue.js",
       "Liquid",
-      "HTML5",
-      "SCSS/Sass",
-      "Tailwind CSS",
+      "React.js",
       "Responsive Design",
+      "SCSS/Sass",
+      "Semantic HTML",
+      "Tailwind CSS",
+      "TypeScript",
+      "Vue.js",
+      "Performance Optimization",
+      "A/B Testing Implementation",
       "Accessibility Compliance",
+      "Unit/Integration Testing",
     ],
   },
   {
     title: "Shopify Plus",
     skills: [
-      "Shopify 2.0",
       "Checkout Extensibility",
-      "Shopify Functions",
       "Markets",
       "Shopify B2B",
-      "Admin GraphQL API",
-      "Store Migration",
-      "Theme Customization",
+      "Shopify Functions",
     ],
   },
   {
-    title: "Backend & Tools",
+    title: "Backend",
     skills: [
-      "Node.js / TypeScript",
+      "Admin GraphQL API",
+      "Node.js/TypeScript",
       "Python",
-      "Ruby",
       "REST API",
+      "Ruby",
       "Webhook",
+    ],
+  },
+  {
+    title: "Tools",
+    skills: [
+      "Claude Code",
+      "Cursor",
+      "Figma",
       "Git",
       "Jira",
       "Notion",
-      "Figma",
-      "Claude Code",
-      "Cursor",
+      "Slack",
     ],
   },
 ];
@@ -196,7 +202,7 @@ const achievements = [
   "Reduced bounce rate by 12% across 3 stores via landing page optimization",
   "Improved organic traffic by 20% through schema markup implementation",
   "Migrated 5 stores to Shopify 2.0 using advanced Liquid and JSON templates",
-  "Developed 10+ custom storefront components using Vue.js",
+  "Developed 10+ custom storefront components using Vue.js, enhancing frontend functionality significantly",
 ];
 
 const contactInfo = [
@@ -394,9 +400,9 @@ function Index() {
                     <div>
                       <h3 className="font-display text-lg font-semibold text-foreground">Education</h3>
                       <div className="mt-3 rounded-xl bg-accent/30 p-4">
-                        <p className="font-medium text-foreground">Bachelor of Science in Computer Science</p>
-                        <p className="text-sm text-muted-foreground">The University of Texas at Dallas</p>
-                        <p className="text-xs text-muted-foreground">April 2016 - May 2020</p>
+                        <p className="font-medium text-foreground">MBA · Finance & Accounting</p>
+                        <p className="text-sm text-muted-foreground">The University of Chicago Booth School of Business</p>
+                        <p className="text-xs text-muted-foreground">May 2019 - June 2021</p>
                       </div>
                     </div>
                     <Separator className="bg-border/50" />
@@ -638,8 +644,8 @@ function Index() {
                   asChild
                   className="border-border/60 hover:bg-accent hover:text-accent-foreground"
                 >
-                  <a
-                    href="https://linkedin.com"
+                    <a
+                    href="https://www.linkedin.com/in/geovanny-escaf-1585b32b6/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
