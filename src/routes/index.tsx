@@ -4,7 +4,6 @@ import {
   Mail,
   MapPin,
   Phone,
-  ExternalLink,
   Download,
   Code2,
   ShoppingBag,
