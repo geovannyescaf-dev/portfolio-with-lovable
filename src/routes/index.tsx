@@ -202,7 +202,7 @@ const achievements = [
   "Reduced bounce rate by 12% across 3 stores via landing page optimization",
   "Improved organic traffic by 20% through schema markup implementation",
   "Migrated 5 stores to Shopify 2.0 using advanced Liquid and JSON templates",
-  "Developed 10+ custom storefront components using Vue.js",
+  "Developed 10+ custom storefront components using Vue.js, enhancing frontend functionality significantly",
 ];
 
 const contactInfo = [
@@ -644,8 +644,8 @@ function Index() {
                   asChild
                   className="border-border/60 hover:bg-accent hover:text-accent-foreground"
                 >
-                  <a
-                    href="https://linkedin.com"
+                    <a
+                    href="https://www.linkedin.com/in/geovanny-escaf-1585b32b6/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
