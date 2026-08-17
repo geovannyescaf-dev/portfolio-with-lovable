@@ -537,8 +537,8 @@ function Index() {
             </div>
 
             <div className="flex flex-col justify-center gap-6 lg:pt-24">
-              <p className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
-                Follow Me
+              <p className="text-base leading-relaxed text-foreground">
+                Learn more about my passions and skillset and contact me via the channels below.
               </p>
               <div className="flex gap-3">
                 <Button
