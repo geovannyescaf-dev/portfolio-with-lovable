@@ -75,30 +75,43 @@ const navLinks = [
 
 const projects = [
   {
-    title: "Beauty Ecommerce Storefront",
-    category: "Shopify Plus / Frontend",
+    title: "BELLAMI Hair",
+    category: "SEO & Performance · Beauty Industry Group",
+    url: "https://www.bellamihair.com/",
     description:
-      "Built custom landing pages and enhanced multiple Shopify stores within the beauty industry portfolio. Improved organic traffic by 20% through schema markup and reduced bounce rate by 12% across three storefronts.",
-    image: projectBeauty,
-    tags: ["Shopify", "Liquid", "HTML5", "CSS3", "Schema Markup", "SEO"],
+      "Ran a full technical SEO audit and site performance overhaul for BELLAMI at Beauty Industry Group — schema markup, Core Web Vitals, image and script optimization across the Shopify storefront.",
+    image: projectBellami,
+    tags: ["Shopify", "Liquid", "Technical SEO", "Schema Markup", "Core Web Vitals", "Performance"],
   },
   {
-    title: "Shopify 2.0 Theme Migration",
-    category: "Theme Architecture",
+    title: "Fenty Hair",
+    category: "Store Retainer · The Stable",
+    url: "https://fentybeauty.com/",
     description:
-      "Migrated legacy Shopify 1.0 Liquid templates to modern Shopify 2.0 themes using JSON templates and Online Store 2.0 sections architecture. Migrated 5+ stores with custom frontend components in Vue.js and React.",
-    image: projectMigration,
-    tags: ["Shopify 2.0", "Liquid", "Vue.js", "React", "SCSS", "JSON Templates"],
+      "Part of the store retainer team at The Stable, building custom Shopify sections and shipping fixes on the live Fenty storefront with fast turnarounds and zero-downtime releases.",
+    image: projectFenty,
+    tags: ["Shopify Plus", "Liquid", "Custom Sections", "JavaScript", "Bug Fixing", "QA"],
   },
   {
-    title: "Custom Checkout Components",
-    category: "Shopify Plus / Checkout Extensibility",
+    title: "White & Warren",
+    category: "Shopify Rebuild · Figma to Store",
+    url: "https://www.whiteandwarren.com/",
     description:
-      "Developed secure, scalable checkout extensions and custom storefront components for Shopify Plus merchants. Leveraged Checkout Extensibility, Shopify Functions, and B2B features to drive conversion.",
-    image: projectCheckout,
-    tags: ["Checkout Extensibility", "Shopify Functions", "B2B", "Markets"],
+      "Rebuilt the White & Warren storefront on Shopify from Figma designs — pixel-accurate Online Store 2.0 sections, responsive layouts and a fully themed, merchandiser-friendly setup.",
+    image: projectWhiteWarren,
+    tags: ["Shopify 2.0", "Figma to Shopify", "Liquid", "JSON Templates", "SCSS", "Responsive UI"],
+  },
+  {
+    title: "Fracture Me",
+    category: "Headless Commerce · Hydrogen",
+    url: "https://fractureme.com/",
+    description:
+      "Headless build deployed with Shopify Hydrogen and Oxygen, including a custom product gallery on the PDP powered by the Storefront API.",
+    image: projectFracture,
+    tags: ["Hydrogen", "Oxygen", "Headless", "React", "Storefront API", "GraphQL"],
   },
 ];
+
 
 const experiences = [
   {
