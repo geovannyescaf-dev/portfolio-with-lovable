@@ -495,7 +495,7 @@ function Index() {
       {/* Contact Section */}
       <section id="contact" className="relative py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
+          <div className="mx-auto grid max-w-2xl gap-12">
             <div>
               <Badge
                 variant="outline"
