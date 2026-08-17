@@ -506,9 +506,6 @@ function Index() {
               <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                 Contact Me
               </h2>
-              <p className="mt-4 max-w-md text-base text-muted-foreground">
-                Learn more about my passions and skillset and contact me via the channels below.
-              </p>
 
               <div className="mt-8 space-y-4">
                 {contactInfo.map((info) => (
