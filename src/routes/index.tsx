@@ -476,7 +476,14 @@ function Index() {
                     {project.category}
                   </p>
                   <h3 className="font-display text-xl font-semibold text-foreground">
-                    {project.title}
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition-colors hover:text-primary"
+                    >
+                      {project.title}
+                    </a>
                   </h3>
                 </CardHeader>
                 <CardContent className="pt-0">
