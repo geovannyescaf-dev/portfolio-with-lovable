@@ -22,7 +22,7 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Separator } from "@/components/ui/separator";
+
 
 import heroImage from "@/assets/hero-portfolio.jpg";
 import resumeAsset from "@/assets/Geovanny_Escaf_Resume.pdf.asset.json";
