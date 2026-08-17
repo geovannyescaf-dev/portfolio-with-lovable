@@ -560,7 +560,7 @@ function Index() {
                   className="border-border/60 hover:bg-accent hover:text-accent-foreground"
                 >
                   <a
-                    href="https://github.com"
+                    href="https://github.com/geovannyescaf-dev"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub"
