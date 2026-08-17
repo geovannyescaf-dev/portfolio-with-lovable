@@ -72,44 +72,6 @@ const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
-const projects = [
-  {
-    title: "BELLAMI Hair",
-    category: "SEO & Performance · Beauty Industry Group",
-    url: "https://www.bellamihair.com/",
-    description:
-      "Ran a full technical SEO audit and site performance overhaul for BELLAMI at Beauty Industry Group — schema markup, Core Web Vitals, image and script optimization across the Shopify storefront.",
-    image: projectBellami,
-    tags: ["Shopify", "Liquid", "Technical SEO", "Schema Markup", "Core Web Vitals", "Performance"],
-  },
-  {
-    title: "Fenty Hair",
-    category: "Store Retainer · The Stable",
-    url: "https://fentybeauty.com/",
-    description:
-      "Part of the store retainer team at The Stable, building custom Shopify sections and shipping fixes on the live Fenty storefront with fast turnarounds and zero-downtime releases.",
-    image: projectFenty,
-    tags: ["Shopify Plus", "Liquid", "Custom Sections", "JavaScript", "Bug Fixing", "QA"],
-  },
-  {
-    title: "White & Warren",
-    category: "Shopify Rebuild · Figma to Store",
-    url: "https://www.whiteandwarren.com/",
-    description:
-      "Rebuilt the White & Warren storefront on Shopify from Figma designs — pixel-accurate Online Store 2.0 sections, responsive layouts and a fully themed, merchandiser-friendly setup.",
-    image: projectWhiteWarren,
-    tags: ["Shopify 2.0", "Figma to Shopify", "Liquid", "JSON Templates", "SCSS", "Responsive UI"],
-  },
-  {
-    title: "Fracture Me",
-    category: "Headless Commerce · Hydrogen",
-    url: "https://fractureme.com/",
-    description:
-      "Headless build deployed with Shopify Hydrogen and Oxygen, including a custom product gallery on the PDP powered by the Storefront API.",
-    image: projectFracture,
-    tags: ["Hydrogen", "Oxygen", "Headless", "React", "Storefront API", "GraphQL"],
-  },
-];
 
 
 const experiences = [
