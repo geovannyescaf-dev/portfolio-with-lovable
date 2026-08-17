@@ -594,19 +594,19 @@ function Index() {
             <p className="font-display text-lg font-bold text-foreground">
               Geovanny<span className="text-primary">.</span>
             </p>
-            <p className="flex items-center gap-2 text-sm text-muted-foreground">
-              Built with
+            <p className="text-center text-sm text-muted-foreground">
+              © 2026 Geovanny Escof, Built with{" "}
               <a
                 href="https://lovable.dev"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 font-medium text-foreground transition-colors hover:text-primary"
+                className="inline-flex items-center gap-1 font-medium text-foreground transition-colors hover:text-primary"
                 aria-label="Lovable"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 32 32"
-                  className="size-5"
+                  className="size-4"
                   fill="currentColor"
                   aria-hidden="true"
                 >
@@ -619,6 +619,16 @@ function Index() {
                 </svg>
                 Lovable
               </a>
+              .{" "}
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-foreground transition-colors hover:text-primary"
+              >
+                View the code on GitHub
+              </a>
+              .
             </p>
             <div className="flex gap-4">
               <a
