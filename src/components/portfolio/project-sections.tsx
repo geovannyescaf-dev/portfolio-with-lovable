@@ -243,6 +243,16 @@ export function ProjectSections() {
                         axisLine={false}
                       />
                       <YAxis
+                        yAxisId="traffic"
+                        domain={[90, 140]}
+                        tick={{ fontSize: 11, fill: "var(--color-muted-foreground)" }}
+                        tickLine={false}
+                        axisLine={false}
+                      />
+                      <YAxis
+                        yAxisId="lcp"
+                        orientation="right"
+                        domain={[0, 6]}
                         tick={{ fontSize: 11, fill: "var(--color-muted-foreground)" }}
                         tickLine={false}
                         axisLine={false}
@@ -258,6 +268,7 @@ export function ProjectSections() {
                       />
                       <Area
                         type="monotone"
+                        yAxisId="traffic"
                         dataKey="traffic"
                         name="Organic traffic index"
                         stroke="var(--color-primary)"
@@ -266,6 +277,7 @@ export function ProjectSections() {
                       />
                       <Area
                         type="monotone"
+                        yAxisId="lcp"
                         dataKey="lcp"
                         name="LCP (s)"
                         stroke="var(--color-chart-3)"
