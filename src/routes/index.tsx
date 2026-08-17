@@ -590,11 +590,11 @@ function Index() {
       {/* Footer */}
       <footer className="border-t border-border/50 py-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-            <p className="font-display text-lg font-bold text-foreground">
+          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row sm:items-center">
+            <p className="font-display text-lg font-bold leading-none text-foreground">
               Geovanny<span className="text-primary">.</span>
             </p>
-            <p className="text-center text-sm text-muted-foreground">
+            <p className="text-center text-sm leading-none text-muted-foreground">
               © 2026 Geovanny Escof, Built with{" "}
               <a
                 href="https://lovable.dev"
@@ -621,7 +621,7 @@ function Index() {
               </a>
               .{" "}
               <a
-                href="#"
+                href="https://github.com/geovannyescaf-dev/portfolio-with-lovable"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium text-foreground transition-colors hover:text-primary"
@@ -630,17 +630,17 @@ function Index() {
               </a>
               .
             </p>
-            <div className="flex gap-4">
+            <div className="flex items-center gap-4">
               <a
                 href="mailto:geovannyescaf@gmail.com"
-                className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                className="text-sm leading-none text-muted-foreground transition-colors hover:text-primary"
               >
                 Email
               </a>
               <a
                 href={resumeAsset.url}
                 download={resumeAsset.original_filename}
-                className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                className="text-sm leading-none text-muted-foreground transition-colors hover:text-primary"
               >
                 Resume
               </a>
