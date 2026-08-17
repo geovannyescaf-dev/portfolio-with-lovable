@@ -495,7 +495,7 @@ function Index() {
       {/* Contact Section */}
       <section id="contact" className="relative py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto grid max-w-2xl gap-12">
+          <div className="mx-auto grid max-w-5xl gap-12 lg:grid-cols-2 lg:items-start">
             <div>
               <Badge
                 variant="outline"
@@ -507,8 +507,7 @@ function Index() {
                 Contact Me
               </h2>
               <p className="mt-4 max-w-md text-base text-muted-foreground">
-                Have a project in mind or looking for a Shopify Plus developer? Let&apos;s talk about how
-                I can help your store grow.
+                Learn more about my passions and skillset and contact me via the channels below.
               </p>
 
               <div className="mt-8 space-y-4">
@@ -535,15 +534,20 @@ function Index() {
                   </div>
                 ))}
               </div>
+            </div>
 
-              <div className="mt-8 flex gap-3">
+            <div className="flex flex-col justify-center gap-6 lg:pt-24">
+              <p className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+                Follow Me
+              </p>
+              <div className="flex gap-3">
                 <Button
                   variant="outline"
                   size="icon"
                   asChild
                   className="border-border/60 hover:bg-accent hover:text-accent-foreground"
                 >
-                    <a
+                  <a
                     href="https://www.linkedin.com/in/geovanny-escaf-1585b32b6/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -582,7 +586,6 @@ function Index() {
                 </Button>
               </div>
             </div>
-
           </div>
         </div>
       </section>
