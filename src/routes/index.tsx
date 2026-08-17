@@ -436,75 +436,8 @@ function Index() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="relative py-20 sm:py-28">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12 max-w-2xl">
-            <Badge
-              variant="outline"
-              className="mb-4 border-primary/30 bg-primary/10 px-3 py-1.5 text-sm font-medium text-primary"
-            >
-              Selected Work
-            </Badge>
-            <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Projects
-            </h2>
-            <p className="mt-4 text-base text-muted-foreground">
-              A selection of Shopify and frontend ecommerce projects I&apos;ve delivered for brands and
-              agencies.
-            </p>
-          </div>
+      <ProjectSections />
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {projects.map((project) => (
-              <Card
-                key={project.title}
-                className="group overflow-hidden border-border/50 bg-card/50 transition-all hover:border-primary/30 hover:bg-card/80"
-              >
-                <div className="aspect-[3/2] overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    loading="lazy"
-                    width={1200}
-                    height={800}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
-                <CardHeader className="pb-3">
-                  <p className="text-xs font-medium uppercase tracking-wider text-primary">
-                    {project.category}
-                  </p>
-                  <h3 className="font-display text-xl font-semibold text-foreground">
-                    <a
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="transition-colors hover:text-primary"
-                    >
-                      {project.title}
-                    </a>
-                  </h3>
-                </CardHeader>
-                <CardContent className="pt-0">
-                  <p className="text-sm leading-relaxed text-muted-foreground">{project.description}</p>
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {project.tags.map((tag) => (
-                      <Badge
-                        key={tag}
-                        variant="secondary"
-                        className="bg-accent/50 text-xs text-accent-foreground hover:bg-accent"
-                      >
-                        {tag}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Experience Section */}
       <section id="experience" className="relative py-20 sm:py-28">
