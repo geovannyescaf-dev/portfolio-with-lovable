@@ -499,16 +499,14 @@ function Index() {
           </div>
 
           <div className="relative">
-            <div className="absolute left-4 top-0 bottom-0 w-px bg-border/50 md:left-1/2" />
+            <div className="absolute left-4 top-0 bottom-0 w-px bg-border/50 md:left-4" />
             <div className="space-y-12">
-              {experiences.map((exp, index) => (
-                <div
-                  key={exp.company + exp.period}
-                  className={`relative grid gap-8 md:grid-cols-2 ${
-                    index % 2 === 0 ? "" : "md:direction-rtl"
-                  }`}
-                >
-                  <div className={`${index % 2 === 0 ? "md:pr-12" : "md:col-start-2 md:pl-12"}`}>
+              {experiences.map((exp) => (
+                <div key={exp.company + exp.period} className="relative grid gap-8 md:grid-cols-[1fr_4fr]">
+                  <div className="pl-12 md:pl-12">
+                    <div className="absolute left-4 top-6 flex size-4 -translate-x-1/2 items-center justify-center rounded-full bg-primary md:left-4">
+                      <div className="size-1.5 rounded-full bg-primary-foreground" />
+                    </div>
                     <Card className="border-border/50 bg-card/50 transition-all hover:border-primary/30 hover:bg-card/80">
                       <CardContent className="p-6">
                         <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">
@@ -535,11 +533,6 @@ function Index() {
                         </ul>
                       </CardContent>
                     </Card>
-                  </div>
-                  <div
-                    className={`absolute left-4 top-6 flex size-4 -translate-x-1/2 items-center justify-center rounded-full bg-primary md:left-1/2`}
-                  >
-                    <div className="size-1.5 rounded-full bg-primary-foreground" />
                   </div>
                 </div>
               ))}
