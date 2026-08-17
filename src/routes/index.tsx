@@ -279,11 +279,11 @@ function Index() {
           <img
             src={heroImage}
             alt="Ecommerce web development hero"
-            className="h-full w-full object-cover opacity-40"
+            className="h-full w-full object-cover opacity-30"
             width={1920}
             height={1088}
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/90 to-background" />
         </div>
 
         <div className="relative z-10 mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
@@ -335,7 +335,7 @@ function Index() {
             <div className="mt-10 flex flex-wrap gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <ShoppingBag className="size-4 text-primary" />
-                <span>50+ Shopify Stores</span>
+                <span>10+ Shopify Stores</span>
               </div>
               <div className="flex items-center gap-2">
                 <Code2 className="size-4 text-primary" />
@@ -499,41 +499,39 @@ function Index() {
           </div>
 
           <div className="relative">
-            <div className="absolute left-4 top-0 bottom-0 w-px bg-border/50 md:left-4" />
-            <div className="space-y-12">
+            <div className="absolute left-4 top-0 bottom-0 w-px bg-border/50" />
+            <div className="space-y-10">
               {experiences.map((exp) => (
-                <div key={exp.company + exp.period} className="relative grid gap-8 md:grid-cols-[1fr_4fr]">
-                  <div className="pl-12 md:pl-12">
-                    <div className="absolute left-4 top-6 flex size-4 -translate-x-1/2 items-center justify-center rounded-full bg-primary md:left-4">
-                      <div className="size-1.5 rounded-full bg-primary-foreground" />
-                    </div>
-                    <Card className="border-border/50 bg-card/50 transition-all hover:border-primary/30 hover:bg-card/80">
-                      <CardContent className="p-6">
-                        <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">
-                          <div>
-                            <h3 className="font-display text-lg font-semibold text-foreground">
-                              {exp.role}
-                            </h3>
-                            <p className="text-sm font-medium text-primary">{exp.company}</p>
-                          </div>
-                          <Badge
-                            variant="outline"
-                            className="w-fit border-border/50 text-xs text-muted-foreground"
-                          >
-                            {exp.period}
-                          </Badge>
-                        </div>
-                        <ul className="mt-4 space-y-2">
-                          {exp.description.map((item) => (
-                            <li key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
-                              <span className="mt-1.5 size-1.5 shrink-0 rounded-full bg-primary" />
-                              {item}
-                            </li>
-                          ))}
-                        </ul>
-                      </CardContent>
-                    </Card>
+                <div key={exp.company + exp.period} className="relative pl-12">
+                  <div className="absolute left-4 top-6 flex size-4 -translate-x-1/2 items-center justify-center rounded-full bg-primary">
+                    <div className="size-1.5 rounded-full bg-primary-foreground" />
                   </div>
+                  <Card className="border-border/50 bg-card/50 transition-all hover:border-primary/30 hover:bg-card/80">
+                    <CardContent className="p-6">
+                      <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">
+                        <div>
+                          <h3 className="font-display text-lg font-semibold text-foreground">
+                            {exp.role}
+                          </h3>
+                          <p className="text-sm font-medium text-primary">{exp.company}</p>
+                        </div>
+                        <Badge
+                          variant="outline"
+                          className="w-fit border-border/50 text-xs text-muted-foreground"
+                        >
+                          {exp.period}
+                        </Badge>
+                      </div>
+                      <ul className="mt-4 space-y-2">
+                        {exp.description.map((item) => (
+                          <li key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <span className="mt-1.5 size-1.5 shrink-0 rounded-full bg-primary" />
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </CardContent>
+                  </Card>
                 </div>
               ))}
             </div>
