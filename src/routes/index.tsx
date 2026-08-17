@@ -594,8 +594,31 @@ function Index() {
             <p className="font-display text-lg font-bold text-foreground">
               Geovanny<span className="text-primary">.</span>
             </p>
-            <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Geovanny Escaf. All rights reserved.
+            <p className="flex items-center gap-2 text-sm text-muted-foreground">
+              Built with
+              <a
+                href="https://lovable.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 font-medium text-foreground transition-colors hover:text-primary"
+                aria-label="Lovable"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                  className="size-5"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <rect x="4" y="4" width="24" height="24" rx="6" />
+                  <path
+                    d="M10 12h4v8h8v4H10z"
+                    fill="oklch(0.12 0.02 270)"
+                  />
+                  <circle cx="22" cy="12" r="2.5" fill="oklch(0.12 0.02 270)" />
+                </svg>
+                Lovable
+              </a>
             </p>
             <div className="flex gap-4">
               <a
