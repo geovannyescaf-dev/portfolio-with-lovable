@@ -400,9 +400,9 @@ function Index() {
                     <div>
                       <h3 className="font-display text-lg font-semibold text-foreground">Education</h3>
                       <div className="mt-3 rounded-xl bg-accent/30 p-4">
-                        <p className="font-medium text-foreground">Bachelor of Science in Computer Science</p>
-                        <p className="text-sm text-muted-foreground">The University of Texas at Dallas</p>
-                        <p className="text-xs text-muted-foreground">April 2016 - May 2020</p>
+                        <p className="font-medium text-foreground">MBA · Finance & Accounting</p>
+                        <p className="text-sm text-muted-foreground">The University of Chicago Booth School of Business</p>
+                        <p className="text-xs text-muted-foreground">May 2019 - June 2021</p>
                       </div>
                     </div>
                     <Separator className="bg-border/50" />
